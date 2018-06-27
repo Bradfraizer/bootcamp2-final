@@ -1,0 +1,75 @@
+body {
+  background-color: #737373;
+}
+
+
+.jumbotron-img {
+  background-image: url("../img/graffiti2.jpg");
+  background-size: cover;
+  height: 94vh;
+  position: ;
+}
+
+.banner h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 70px;
+  color: #fff;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.banner p {
+  font-family: 'Shrikhand', cursive;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-inverse {
+  background-color: #000;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+.navbar .link, .navbar .nav li a{
+  font-family: 'Shrikhand', cursive;
+  color: #c61aff;
+  font-size: 25px;
+}
+
+.navbar .link, .navbar .nav li a:hover {
+  font-family: 'Press Start 2P', cursive;
+  color: #e6e600;
+  font-size: 40px;
+}
+
+.footer {
+  background-image: url("../img/feedback.jpg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  height: 540px;
+  width:100%;
+  overflow:hidden;
+}
+
+.footer-heading {
+  font-family: 'Press Start 2P', cursive;
+  color: #e65c00;
+  font-size: 60px;
+}
+
+.contact-icon {
+  width: 100%;
+  height: 20px;
+}
