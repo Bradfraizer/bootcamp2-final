@@ -1,6 +1,18 @@
 body {
-  background-color: #737373;
+  background-color: #000;
 }
+
+/* @media only screen and (min-width : 992px) {
+  #header-top {
+    min-height: 100px;
+} */
+
+@media only screen and (max-width:1000px) and (min-width:700px) {
+  #header-top {
+    min-height: 100px;
+  }
+}
+
 
 
 .jumbotron-img {
@@ -12,7 +24,7 @@ body {
 
 .banner h1 {
   font-family: 'Shrikhand', cursive;
-  font-size: 70px;
+  font-size: 40px;
   color: #fff;
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -20,7 +32,7 @@ body {
 
 .banner p {
   font-family: 'Shrikhand', cursive;
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -52,6 +64,89 @@ body {
   font-family: 'Press Start 2P', cursive;
   color: #e6e600;
   font-size: 40px;
+}
+
+/* Body content */
+
+.intro {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #fff;
+  color: #000;
+  font-size: 50px;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.bio {
+  color: #000;
+  background-color: #f4f4f4;
+  padding: 5vh 10vh;
+}
+
+.img1 {
+  background-image: url("../img/splatter2.PNG");
+  width: 35em;
+  height: 30em;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  margin-bottom: 60px;
+}
+
+.yellow {
+  color: #ffff4d;
+}
+
+.img2 {
+  background-image: url("../img/splatter4.PNG");
+  width: 35em;
+  height: 30em;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  margin-bottom: 60px;
+}
+
+.green {
+  color: #00802b;
+}
+
+.img3 {
+  background-image: url("../img/splatter5.PNG");
+  width: 35em;
+  height: 30em;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  margin-bottom: 60px;
+}
+
+.red {
+  color: #b30000;
+}
+
+.img4 {
+  background-image: url("../img/splatter3.PNG");
+  width: 35em;
+  height: 30em;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  margin-bottom: 60px;
+}
+
+.blue {
+  color: #003cb3;
+}
+
+.img-item {
+  width: 80%;
+  height: 35vh;
+  margin-top: 70px;
+  border-radius: 50%;
+}
+
+.disclaimer {
+  font-family: 'Shrikhand', cursive;
+  font-size: 37px;
 }
 
 .footer {
